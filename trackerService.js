@@ -24,3 +24,8 @@ function calcRunCal(weight, distance){
 //speed is whatever units the user wants to use
 function calcSpeed(distance, time){
     return distance/time;
+}
+
+exports.calcWalkCal = calcWalkCal;
+exports.calcRunCal = calcRunCal;
+exports.calcSpeed = calcSpeed;
